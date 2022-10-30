@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+}
+
+/* whole page wrapper*/
+.main-content {
+  max-width: 960px;
+  margin: 500px auto;
+  border-radius: 9px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  padding-top: 40px;
+}
+
+h3 {
+  color: #333;
+  text-align: center;
+}
+
+/* score display buttons */
+
+.scores-container {
+  display: flex;
+  justify-content: center;
+}
+
+.player,
+.computer {
+  background-color: #c7365f;
+  border-radius: 9px;
+  width: 150px;
+  padding: 20px;
+  margin: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.score-computer,
+.score-player {
+  padding-top: 20px;
+  font-size: 48px;
+}
+
+/* Displaying the result */
+
+.result,
+.result-2,
+.result-3 {
+  text-align: center;
+  font-weight: 700;
+  color: #333;
+  font-size: 48px;
+  padding: 120px;
+  display: block;
+  visibility: visible;
+}
+
+/* Handling buttons/images container */
+
+.buttons-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 80px;
+}
+
+.btn {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  transition: transform 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* handling reset button */
+
+.reset-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset-btn {
+  border: none;
+  padding: 0.7rem 2.5rem;
+  border-radius: 50rem;
+  margin-bottom: 40px;
+  transition: transform 0.2s;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 1.75rem 3.5rem rgb(0 0 0 / 10%);
+}
+
+.reset-btn:hover {
+  background-color: #fff;
+  color: #333;
+  transform: scale(1.05);
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}

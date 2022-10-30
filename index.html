@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css"/>
+    <title>rock-paper-scissors</title>
+  </head>
+  <body>
+    <main class="main-content">
+        <h1 class="game-title">Rock - Paper - Scissors</h1>
+      <section class="scores-container">
+        <div class="player">
+            <p class="score">PLAYER</p>
+            <p class="score-player">0</p>
+        </div>
+        <div class="computer">
+            <p class="score">COMPUTER</p>
+            <p class="score-computer">0</p>
+      </section>
+      <section class="selection-container">
+        <div class = 'results-container hidden'>
+        <div class="result hidden">Hurray! You won!</div>
+        <div class="result-2 hidden">That's a bummer! <br>You lost!</div>
+        <div class="result-3 hidden">It's a draw!</div>
+        </div>
+        <div class = 'buttons-container'>
+        <button class="btn" id="rock"><img src="rock-img.png" alt="rock" class="rock"></button>
+        <button class="btn" id="paper"><img src="paper-img.png" alt="paper" class="paper"></button>
+        <button class="btn" id="scissors"><img src="scissors-img.png" alt="paper" class="scissors"></button>
+        </div>
+      </section>
+      <div class="reset-container">
+      <button class="reset-btn">New Game</div>
+      </div>
+      </main>
+  </body>
+  <script src="index.js"></script>
+</html>
